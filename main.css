@@ -1,0 +1,213 @@
+body{
+
+    background: #111;
+
+}
+
+.theatre-structure{
+
+    width: 890pt;
+    height: 650pt;
+    margin-left: 4%;
+
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
+    
+    border: 3pt solid #DC2056;
+
+     float: left;
+
+}
+
+.selection-box{
+
+    border: 3pt solid #DC2056;
+    height: 650pt;
+    margin-top: 3.5%;
+    width: 30%;
+    float: left;
+
+}
+
+.seat {
+
+        display: flex;
+        width: 20pt;
+        height: 30pt;
+        border-radius: 8pt;
+        background: linear-gradient(#e66466, #761818);
+        margin-bottom: 23pt;
+        margin-top: -24pt;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5)
+
+
+}
+
+#row1, #row3, #row11{
+
+    margin-left: 5%;
+
+}
+
+#row10{
+
+    padding-right: ;
+}
+
+
+
+.seat.picked{
+
+
+    background: linear-gradient(#00FF00, #006826);
+
+
+
+}
+
+.seat.taken{
+
+    background: linear-gradient(#FFFFFF, #9B9B9B);
+
+    
+}
+
+.seat:not(.taken):hover {
+    
+    background: rgba(0, 255, 255, 0.5);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5)
+
+  
+}
+
+.seat:not(.taken):active {
+
+    background: linear-gradient(#00FF00, #006826);
+
+}
+
+.screen{
+
+    width: 836pt;
+    height: 110pt;
+    margin-top: 3pt;
+    margin-left: 25pt;
+    margin-bottom: 75pt;
+    background-color: white;
+    transform: rotateX(-45deg);
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.5)
+
+        
+
+}
+
+.screenmessage{
+
+    font-size: 30pt;
+    font-family: sans-serif;
+    padding-top: 40pt;
+    text-align: center;
+
+}
+
+
+
+
+
+.row{
+    
+   float: left;
+
+   padding-right: 40pt;
+
+    
+}
+
+
+
+
+
+
+.selection-box{
+
+
+    color: white;
+    font-size:15pt;
+    font-family: sans-serif;
+}
+
+.showtime-selection{
+
+    padding-left: 60pt;
+    padding-top: 20pt;
+
+}
+
+select{
+    width: 200pt;
+    background-color: white;
+    font-size: 15pt;
+    font-family: sans-serif;
+}
+
+h2{
+    color: #DC2056;
+}
+
+.legend{
+    margin-top: 20pt;
+}
+
+.seat-explanations{
+    margin-left: 60pt;
+    font-size: 12pt;
+}
+
+.row-letters{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 7pt;
+    line-height: 17.5pt;
+    margin-top: -30pt;
+    float: left;
+
+}
+
+
+
+.row-numbers{
+    color: white;
+     font-family: sans-serif;
+
+}
+
+#stairsplit{
+    margin-bottom: 110pt;
+}
+
+.legend.seat{
+
+}
+
+#bookSeats{
+    width: 70%;
+    background-color: #DC2056;
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 10%;
+    border-radius: 10pt;
+
+
+
+}
+
+#bookSeats:hover{
+
+    background-color: white;
+    color: #DC2056;
+}
+
+
+
